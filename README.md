@@ -116,9 +116,7 @@ pip install numpy scipy scikit-learn tensorflow matplotlib seaborn joblib
 
 ---
 
-## Usage
-
-Open and run `SimLHS_inverse.ipynb` cell by cell.
+## 
 
 The notebook is organized as follows:
 
