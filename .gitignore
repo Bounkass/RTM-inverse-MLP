@@ -1,0 +1,10 @@
+*.npy
+*.keras
+*.pkl
+*.mat
+*.txt
+*.png
+*.m
+.ipynb_checkpoints/
+main
+README (1).md
