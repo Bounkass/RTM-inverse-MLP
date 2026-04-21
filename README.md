@@ -24,7 +24,7 @@ where $q(C_0, x) = (\varepsilon C + \sigma)(x, T_f)$ is the particle distributio
 
 ## ML Pipeline
 
-$$q(x) \xrightarrow{\text{StandardScaler}} \xrightarrow{\text{PCA}\ (k_x=12)} \xrightarrow{\text{MLP}} \xrightarrow{\text{PCA}^{-1}\ (k_y=10)} \xrightarrow{\text{Scaler}^{-1}} C_0(t)$$
+$$q(x) \xrightarrow{\text{StandardScaler}+\text{PCA}} \xrightarrow{\text{MLP}} \xrightarrow{\text{PCA}^{-1} + \text{Scaler}^{-1}} C_0(t)$$
 
 ---
 
